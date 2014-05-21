@@ -29,6 +29,7 @@ Chainy action that replaces the chain's data of a nested array into a single sha
 
 <!-- /DESCRIPTION -->
 
+
 ``` javascript
 require('chainy-core').create().require('set flatten log')
 	.set([1, [2], [3, [[4]]]])
