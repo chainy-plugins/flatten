@@ -1,7 +1,7 @@
 
 <!-- TITLE/ -->
 
-# Flatten action for [ChainyJS](http://chainy.bevry.me)
+# Flatten action for [ChainyJS](http://chainyjs.org)
 
 <!-- /TITLE -->
 
@@ -31,7 +31,7 @@ Chainy action that replaces the chain's data of a nested array into a single sha
 
 
 ``` javascript
-require('chainy-core').create().require('set flatten log')
+require('chainy').create().require('set flatten log')
 	.set([1, [2], [3, [[4]]]])
 	.flatten()
 	.log()  // [1, 2, 3, 4]
@@ -51,7 +51,7 @@ require('chainy-core').create().require('set flatten log')
 ### [Browserify](http://browserify.org/)
 - Use: `require('chainy-plugin-flatten')`
 - Install: `npm install --save chainy-plugin-flatten`
-- CDN URL: `//wzrd.in/bundle/chainy-plugin-flatten@0.1.0`
+- CDN URL: `//wzrd.in/bundle/chainy-plugin-flatten@1.0.0`
 
 ### [Ender](http://ender.jit.su/)
 - Use: `require('chainy-plugin-flatten')`
@@ -99,8 +99,11 @@ No sponsors yet! Will you be the first?
 
 ### Contributors
 
-No contributors yet! Will you be the first?
-[Discover how you can contribute by heading on over to the `CONTRIBUTING.md` file.](https://github.com/chainy-plugins/chainy-plugin-flatten/blob/master/CONTRIBUTING.md#files)
+These amazing people have contributed code to this project:
+
+- [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/chainy-plugins/flatten/commits?author=balupton)
+
+[Become a contributor!](https://github.com/chainy-plugins/chainy-plugin-flatten/blob/master/CONTRIBUTING.md#files)
 
 <!-- /BACKERS -->
 
